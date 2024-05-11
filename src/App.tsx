@@ -4,10 +4,12 @@ import Logo from './logo.svg'
 import { Counter } from './counter'
 
 export const App = () => {
+  const num = 'deva'
   return (
     <>
       <h1>
-        Edited React Template for webpack starter - {process.env.NODE_ENV}{' '}
+        Edited React Template for webpack starter - {process.env.NODE_ENV}
+        {num}
         {process.env.name}
       </h1>
       <img src={Image} alt="React Logo" width="300" height="200" />
